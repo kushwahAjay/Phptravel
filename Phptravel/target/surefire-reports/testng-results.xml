@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Open App]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25216" started-at="2018-07-10T04:37:17Z" finished-at="2018-07-10T04:37:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25216" started-at="2018-07-10T04:37:17Z" finished-at="2018-07-10T04:37:42Z">
+      <class name="Script.TestLoginPage">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:Script.TestLoginPage@7f560810]" name="openApp" is-config="true" duration-ms="19715" started-at="2018-07-10T10:07:17Z" finished-at="2018-07-10T10:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open App]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="TestLogin()[pri:0, instance:Script.TestLoginPage@7f560810]" name="TestLogin" duration-ms="3852" started-at="2018-07-10T10:07:37Z" finished-at="2018-07-10T10:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Script.TestLoginPage@7f560810]" name="closeBrowser" is-config="true" duration-ms="1633" started-at="2018-07-10T10:07:40Z" finished-at="2018-07-10T10:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestLogin status=SUCCESS method=TestLoginPage.TestLogin()[pri:0, instance:Script.TestLoginPage@7f560810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Script.TestLoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
